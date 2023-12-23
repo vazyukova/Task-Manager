@@ -1,0 +1,261 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+:root {
+  --primary-color: #047857;
+  --background-color:#FFFFFF;
+}
+
+.btn-primary {
+  background-color: var(--primary-color) !important;
+  border-color: var(--primary-color) !important;
+  border-radius: 13px !important;
+  cursor: pointer !important;
+}
+
+.auth-button
+{
+  width: 100% !important;
+}
+
+.form-control{
+  border-radius: 13px !important;
+}
+
+.container-auth {
+  max-width: 2000px !important;
+  max-height: 1000px !important;
+  background-color: var(--background-color) !important;
+}
+
+.container-header {
+  background-color: var(--primary-color) !important;
+  max-width: 2000px !important;
+  max-height: 1000px !important;
+}
+
+.content{
+  padding: 20px;
+  background-color: var(--background-color) !important;
+}
+
+.content-main{
+  padding: 20px;
+  margin-left: 40px;
+  margin-right: 60px;
+}
+
+.flexClass{
+  display: flex;
+}
+
+.leftPosition{
+  margin-left:auto;
+  margin-top:auto;
+  margin-bottom: auto;
+  height: 40px;
+}
+
+.msl-vars{
+  --input-width: 465px !important;
+}
+
+.sortElem{
+  border: 1px solid gray;
+  padding: 2px;
+}
+
+.sortElem:active{
+  color: black;
+}
+
+.auth-wrapper {
+  vertical-align: middle;
+  display: inline;
+}
+
+.auth-inner {
+  width: 450px;
+  padding: 120px 55px 45px 55px;
+  border-radius: 15px;
+  transition: all .3s;
+  text-align: left;
+  right: 17%;
+  top: 5%;
+  position: absolute;
+}
+
+.auth-image {
+  position: absolute;
+  left: 10%;
+}
+
+.auth-wrapper .form-control:focus {
+  border-color: #167bff;
+  box-shadow: none;
+}
+.auth-wrapper h3 {
+  text-align: center;
+  margin: 0;
+  line-height: 1;
+  padding-bottom: 50px;
+}
+
+.warning-message{
+  color: red;
+}
+
+.parent {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: auto;
+}
+
+.row-auth{
+  position: absolute;
+  top: 25%;
+  right: 0;
+  left: 0;
+}
+
+.auth-image-logo{
+  width: 200px !important;
+  position: absolute;
+  top: 7%;
+  left: 7%;
+}
+
+.block-h3 {
+  position: absolute;
+  top: 56%;
+  left: 47%;
+  margin: -125px 0 0 -125px;
+}
+
+.new-primary-color.active
+{
+  background-color: var(--primary-color) !important;
+}
+
+.main{
+  background-color: white;
+}
+
+.p-class{
+  font-size: 22px;
+    text-align: center;
+}
+
+.main-left-navigation{
+  position: absolute;
+  left: 3%;
+  padding-top: 18%;
+  padding-bottom: 24.2%;
+  width: 12% !important;
+  text-align: center;
+  border-right: solid 1px;
+  border-color: #99999c;
+  padding-right: 10px;
+}
+
+.main-top-navigation{
+  position: absolute;
+  left: 15%;
+  right: 0;
+  width: 85% !important;
+  height: 6%;
+  color: var(--primary-color) !important;
+  border-bottom: solid 1px;
+  border-color: #128037;
+}
+
+.container-header-user {
+  background-color: white !important;
+  max-width: 2000px !important;
+  max-height: 1000px !important;
+}
+
+.color-primary{
+  color: var(--primary-color) !important;
+}
+
+.background-primary{
+  background-color: var(--background-color) !important;
+}
+
+.content-main-user{
+  position: absolute;
+  left:15%;
+  top:6%;
+  width: 85%;
+  height: 94%;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  min-height: 100vh !important;
+  z-index: 100;
+  padding: 48px 0 0;
+  box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+}
+#sidebar-wrapper{
+  min-height: 100vh !important;
+  width: 100vw;
+  margin-left: -1rem;
+  -webkit-transition: margin .25s ease-out;
+  -moz-transition: margin .25s ease-out;
+  -o-transition: margin .25s ease-out;
+  transition: margin .25s ease-out;
+}
+#sidebar-wrapper .sidebar-heading {
+  padding: 0.875rem 1.25rem;
+  font-size: 1.2rem;
+}
+
+#page-content-wrapper {
+  min-width: 0;
+  width: 100%;
+}
+

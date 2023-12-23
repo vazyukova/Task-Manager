@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ru" manifest="about_company.appcache">
+  <head>
+    <title>Статистика</title>
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+    <div class="container-dashboard">
+        <div class="menu-container">
+            <img class="center-horizontal logo" src="img/logo.svg"/>
+            <nav class="menu center-horizontal">
+                <ul>
+                    <a>
+                        <li class="menu-item selected">
+                            <img class="icon center-vertical" src="img/dashboard.svg"/>
+                            <span class="center-vertical">Статистика</span>
+                        </li>
+                    </a>
+                    <a href="plans.html">
+                        <li class="menu-item">
+                            <img class="icon center-vertical" src="img/plans.svg"/>
+                            <span class="center-vertical">Планы</span>
+                        </li>
+                    </a>
+                    <a href="projects.html">
+                        <li class="menu-item">
+                            <img class="icon center-vertical" src="img/projects.svg"/>
+                            <span class="center-vertical">Проекты</span>
+                        </li>
+                    </a>
+                    <a>
+                        <li class="menu-item">
+                            <img class="icon center-vertical" src="img/tasks.svg"/>
+                            <span class="center-vertical">Задачи</span>
+                        </li>
+                    </a>
+                    <a>
+                        <li class="menu-item">
+                            <img class="icon center-vertical" src="img/notifications.svg"/>
+                            <span class="center-vertical">Уведомления</span>
+                        </li>
+                    </a>
+                    <a>
+                        <li class="menu-item">
+                            <img class="icon center-vertical" src="img/settings.svg"/>
+                            <span class="center-vertical">Настройки</span>
+                        </li>
+                    </a>
+                </ul>
+            </nav>
+            <div class="profile-menu">
+                <div class="center-horizontal" style="display: flex;">
+                    <img class="center-vertical avatar" src="img/avatar.svg"/>
+                    <span class="center-vertical">Вазюкова Галина</span>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="header">
+                <h1>Моя статистика</h1>
+                <select class="dropdown-without-border">
+                    <option value="" selected="selected">План 14 Авг - 30 Авг</option>
+                    <option value="1">План 1 Сен - 14 Сен</option>
+                    <option value="2">План 15 Сен - 30 Сен</option>
+                </select>
+            </div>
+            <div class="dashboard-content">
+                <div class="dashboard-line">
+                    <div class="main-info">
+                        <div class="icon center-vertical"><img src="img/persent.svg"/></div>
+                        <div class="icon center-vertical">
+                            <div>задач решено</div>
+                            <h1>12 из 30</h1>
+                        </div>
+                    </div>
+                    <div class="main-info">
+                        <div class="icon center-vertical"><img src="img/persent.svg"/></div>
+                        <div class="icon center-vertical">
+                            <div>часов затрачено</div>
+                            <h1>24 из 60</h1>
+                        </div>
+                    </div>
+                    <div class="main-info">
+                        <div class="icon center-vertical"><img src="img/persent.svg"/></div>
+                        <div class="icon center-vertical">
+                            <div>задач начато</div>
+                            <h1>2 из 18</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="big-gadget">
+                    <div class="center-horizontal center-vertical">Что-то еще</div>
+                </div>
+                <div class="dashboard-line">
+                    <div class="small-gadget">
+                        <div class="center-horizontal center-vertical">Раз</div>
+                    </div>
+                    <div class="small-gadget">
+                        <div class="center-horizontal center-vertical">Два</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="right-panel">
+            <input type="date" class="dropdown-without-border center-horizontal"/>
+        </div>
+    </div>
+</body>
+</html>
